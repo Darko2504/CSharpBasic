@@ -1,4 +1,4 @@
-﻿//dare
+﻿
 #region first task
 Console.Write("Enter the First number: ");
 decimal firstNumber = Convert.ToDecimal(Console.ReadLine());
@@ -36,5 +36,35 @@ switch (operation)
 }
 
 Console.WriteLine("The result is:" + result);
-    
+
+#endregion
+
+#region second task
+Console.WriteLine("Enter the first number: ");
+double firstNumberAv = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter the second number: ");
+double secondNumberAv = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter the third number: ");
+double thirdNumberAv = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Enter the fourth number: ");
+double fourthNumberAv = Convert.ToDouble(Console.ReadLine());
+
+double average = (firstNumberAv + secondNumberAv + thirdNumberAv + fourthNumberAv) / 4;
+
+Console.WriteLine("The average from these 4 numbers is: " + average);
+#endregion
+
+#region third task
+Console.WriteLine("Enter the first number: ");
+int firstNumberSwap = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the second number: ");
+int secondNumberSwap = int.Parse(Console.ReadLine());
+
+int swappedNumber = firstNumberSwap;
+firstNumberSwap = secondNumberSwap;
+secondNumberSwap = swappedNumber;
+
+Console.WriteLine("After swapping the numbers");
+Console.WriteLine("First number is: " + firstNumberSwap);
+Console.WriteLine("Second number is: " + secondNumberSwap);
 #endregion
