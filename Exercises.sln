@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework03", "Homework03\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework2", "Homework2\Homework2.csproj", "{3899B9B4-67C7-4546-8655-534A2C2F80EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework1", "Homework1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework02", "Homework02", "{80D6DDDC-2314-4A3D-96D0-7480B59E8264}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework3", "Homework3", "{F3A8120B-6366-4DA2-A225-1906BBBFCC86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +42,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAC7B788-5645-4D51-8BF1-4724459DB557} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{1A0ABA2B-B5C0-47EA-90BD-8112EE426C21} = {F3A8120B-6366-4DA2-A225-1906BBBFCC86}
+		{A9A3B936-29A4-4970-827E-8C889E1CD107} = {F3A8120B-6366-4DA2-A225-1906BBBFCC86}
+		{3899B9B4-67C7-4546-8655-534A2C2F80EA} = {80D6DDDC-2314-4A3D-96D0-7480B59E8264}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C122886-FADB-472B-9C02-82F646C474A7}
